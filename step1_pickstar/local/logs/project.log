@@ -1,0 +1,186 @@
+2017-06-03T08:30:05.189Z - normal: Load ~/.CocosCreator/settings.json
+2017-06-03T08:30:05.193Z - normal: checking language setting...
+2017-06-03T08:30:05.193Z - normal: Language: zh
+2017-06-03T08:30:05.490Z - success: protocol editor-framework registered
+2017-06-03T08:30:05.491Z - success: protocol app registered
+2017-06-03T08:30:05.491Z - success: protocol theme registered
+2017-06-03T08:30:05.491Z - success: protocol profile registered
+2017-06-03T08:30:05.491Z - success: protocol packages registered
+2017-06-03T08:30:05.493Z - success: protocol unpack registerred
+2017-06-03T08:30:05.493Z - success: protocol disable-commonjs registerred
+2017-06-03T08:30:06.028Z - normal: connected!
+2017-06-03T08:30:06.031Z - normal: Check project /Users/simon/workspace/Cocos/start_project
+2017-06-03T08:30:06.033Z - normal: Initializing Cocos2d
+2017-06-03T08:30:06.166Z - normal: Initializing Asset Database
+2017-06-03T08:30:06.181Z - success: protocol uuid registerred
+2017-06-03T08:30:06.181Z - success: protocol db registerred
+2017-06-03T08:30:06.181Z - success: protocol thumbnail registerred
+2017-06-03T08:30:06.181Z - normal: Loading editor/builtin packages
+2017-06-03T08:30:06.267Z - success: assets loaded
+2017-06-03T08:30:06.270Z - success: builder loaded
+2017-06-03T08:30:06.276Z - success: hierarchy loaded
+2017-06-03T08:30:06.280Z - success: inspector loaded
+2017-06-03T08:30:06.281Z - success: keystore loaded
+2017-06-03T08:30:06.284Z - success: node-library loaded
+2017-06-03T08:30:06.286Z - success: preferences loaded
+2017-06-03T08:30:06.298Z - success: project-importer loaded
+2017-06-03T08:30:06.303Z - success: project-settings loaded
+2017-06-03T08:30:06.306Z - success: ui-kit loaded
+2017-06-03T08:30:06.310Z - success: ui-grid loaded
+2017-06-03T08:30:06.314Z - success: scene loaded
+2017-06-03T08:30:06.315Z - success: sprite-editor loaded
+2017-06-03T08:30:06.339Z - success: store loaded
+2017-06-03T08:30:06.343Z - success: timeline loaded
+2017-06-03T08:30:06.343Z - normal: Loading builtin packages
+2017-06-03T08:30:06.347Z - success: anysdk loaded
+2017-06-03T08:30:06.349Z - success: asset-db-debugger loaded
+2017-06-03T08:30:06.350Z - success: code-editor loaded
+2017-06-03T08:30:06.351Z - success: color-picker loaded
+2017-06-03T08:30:06.353Z - success: console loaded
+2017-06-03T08:30:06.356Z - success: package-manager loaded
+2017-06-03T08:30:06.359Z - success: tester loaded
+2017-06-03T08:30:06.361Z - success: ui-kit-preview-extra loaded
+2017-06-03T08:30:06.364Z - success: ui-kit-preview loaded
+2017-06-03T08:30:06.366Z - success: ui-tree loaded
+2017-06-03T08:30:06.397Z - normal: Initializing project /Users/simon/workspace/Cocos/start_project
+2017-06-03T08:30:06.398Z - normal: Loading packages
+2017-06-03T08:30:06.402Z - normal: Watching packages
+2017-06-03T08:30:06.413Z - normal: Run Application
+2017-06-03T08:30:06.651Z - success: preview server running at http://localhost:7456
+2017-06-03T08:30:09.409Z - normal: 1.4.2
+2017-06-03T08:30:09.697Z - warn: Script attached to "Canvas" in scene "game.fire" is missing or invalid. Detailed information:
+Node path: "Canvas"
+Asset url: "db://assets/game.fire"
+Script UUID: "aa7dd3a3-d423-4119-8f76-c17d1c240597"
+Class ID: "aa7ddOj1CNBGY92wX0cJAWX"
+
+2017-06-03T08:31:19.996Z - normal: Compiled project javascript file successfully
+2017-06-03T08:31:30.274Z - error: Can not find cc.Component in the script aa7ddOj1CNBGY92wX0cJAWX.
+    at Object.addComponent (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/page/scene-utils/index.js:1:11009)
+    at editor-scene.scene:add-component (file:///Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/scene/panel/scene.js:1:9442)
+    at Object.Panel._dispatch (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/panel.js:1:2294)
+    at EventEmitter.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5043)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:201:7)
+2017-06-03T08:31:51.886Z - info: Path: Canvas, UUID: d0e5bRZ+gFHE5T2ApPX9/rN
+2017-06-03T08:32:32.116Z - normal: Compiled project javascript file successfully
+2017-06-03T08:32:36.230Z - normal: Compiled project javascript file successfully
+2017-06-03T08:32:45.436Z - normal: Compiled project javascript file successfully
+2017-06-03T08:32:54.104Z - normal: Compiled project javascript file successfully
+2017-06-03T08:35:29.384Z - normal: Compiled project javascript file successfully
+2017-06-03T08:39:36.338Z - normal: Compiled project javascript file successfully
+2017-06-03T08:41:34.560Z - normal: Compiled project javascript file successfully
+2017-06-03T08:47:52.038Z - normal: Compiled project javascript file successfully
+2017-06-03T08:47:52.082Z - warn: The 'type' attribute of 'Player.jumpAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2017-06-03T08:49:17.297Z - normal: Compiled project javascript file successfully
+2017-06-03T08:49:17.380Z - warn: The 'type' attribute of 'Player.jumpAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2017-06-03T08:53:05.766Z - normal: Compiled project javascript file successfully
+2017-06-03T08:53:05.849Z - warn: The 'type' attribute of 'Player.jumpAudio' must be child class of cc.Asset, otherwise you should use 'url: cc.AudioClip' instead
+2017-06-03T08:54:08.583Z - normal: Compiled project javascript file successfully
+2017-06-03T08:55:45.211Z - normal: Compiled project javascript file successfully
+2017-06-03T09:02:17.692Z - normal: Compiled project javascript file successfully
+2017-06-03T09:11:18.060Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at eval (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:13446)
+    at EventEmitter.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5527)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:201:7)
+2017-06-03T09:11:34.747Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at eval (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:13446)
+    at EventEmitter.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5527)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:201:7)
+2017-06-03T09:11:35.325Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at eval (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:13446)
+    at EventEmitter.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5527)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:201:7)
+2017-06-03T09:11:35.520Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at eval (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:13446)
+    at EventEmitter.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5527)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:201:7)
+2017-06-03T09:11:35.705Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at eval (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:13446)
+    at EventEmitter.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5527)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:201:7)
+2017-06-03T09:11:36.069Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at eval (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:13446)
+    at EventEmitter.<anonymous> (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5527)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:201:7)
+2017-06-03T09:11:58.319Z - normal: Start building with options : {
+  "androidStudio": false,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/simon/workspace/Cocos/start_project/build",
+  "debug": false,
+  "dest": "/Users/simon/workspace/Cocos/start_project/build/web-mobile",
+  "excludedModules": [],
+  "includeAnySDK": false,
+  "inlineSpriteFrames": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "web-mobile",
+  "previewHeight": 720,
+  "previewWidth": 1280,
+  "privateKey": "",
+  "renderMode": "0",
+  "scenes": [
+    {
+      "url": "db://assets/game.fire",
+      "uuid": "d6fb0bf4-6d28-4c76-8c0e-2ff85c498029"
+    }
+  ],
+  "sourceMaps": false,
+  "startScene": "d6fb0bf4-6d28-4c76-8c0e-2ff85c498029",
+  "template": "default",
+  "title": "cocos_step1",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "project": "/Users/simon/workspace/Cocos/start_project",
+  "projectName": "cocos_step1",
+  "runtimePath": "/Applications/CocosCreator.app/Contents/Resources/engine",
+  "debugBuildWorker": false
+}
+2017-06-03T09:11:58.320Z - normal: Building /Users/simon/workspace/Cocos/start_project
+2017-06-03T09:11:58.321Z - normal: Destination /Users/simon/workspace/Cocos/start_project/build/web-mobile
+2017-06-03T09:11:58.529Z - normal: Delete /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/**/*
+2017-06-03T09:11:58.529Z - normal: Delete /Users/simon/workspace/Cocos/start_project/build/web-mobile/src/*/
+2017-06-03T09:12:22.184Z - normal: Compiled project javascript file successfully
+2017-06-03T09:12:22.186Z - normal: Start building assets
+2017-06-03T09:12:22.187Z - normal: Start spawn build-worker
+2017-06-03T09:12:22.753Z - normal: Finish spawn build-worker
+2017-06-03T09:12:22.753Z - normal: Start init build-worker
+2017-06-03T09:12:23.446Z - normal: 1.4.2
+2017-06-03T09:12:23.495Z - normal: Finish init build-worker
+2017-06-03T09:12:23.495Z - normal: Start build-assets in worker
+2017-06-03T09:12:23.667Z - normal: Finish build-assets in worker
+2017-06-03T09:12:23.670Z - normal: Finish building assets
+2017-06-03T09:12:23.706Z - normal: Start building raw assets
+2017-06-03T09:12:23.707Z - normal: [build-raw-assets] Start copying /Users/simon/workspace/Cocos/start_project/assets/textures/background.jpg to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/textures/background.jpg
+2017-06-03T09:12:23.707Z - normal: [build-raw-assets] Start copying /Users/simon/workspace/Cocos/start_project/assets/textures/ground.png to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/textures/ground.png
+2017-06-03T09:12:23.707Z - normal: [build-raw-assets] Start copying /Users/simon/workspace/Cocos/start_project/assets/textures/star.png to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/textures/star.png
+2017-06-03T09:12:23.707Z - normal: [build-raw-assets] Start copying /Users/simon/workspace/Cocos/start_project/assets/textures/PurpleMonster.png to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/textures/PurpleMonster.png
+2017-06-03T09:12:23.707Z - normal: [build-raw-assets] Start copying /Users/simon/workspace/Cocos/start_project/assets/audio/jump.mp3 to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/audio/jump.mp3
+2017-06-03T09:12:23.707Z - normal: [build-raw-assets] Start copying /Users/simon/workspace/Cocos/start_project/assets/mikado_outline_shadow.png to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/mikado_outline_shadow.png
+2017-06-03T09:12:23.717Z - normal: [build-raw-assets] Finish copying /Users/simon/workspace/Cocos/start_project/assets/mikado_outline_shadow.png to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/mikado_outline_shadow.png
+2017-06-03T09:12:23.718Z - normal: [build-raw-assets] Finish copying /Users/simon/workspace/Cocos/start_project/assets/textures/star.png to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/textures/star.png
+2017-06-03T09:12:23.718Z - normal: [build-raw-assets] Finish copying /Users/simon/workspace/Cocos/start_project/assets/audio/jump.mp3 to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/audio/jump.mp3
+2017-06-03T09:12:23.718Z - normal: [build-raw-assets] Finish copying /Users/simon/workspace/Cocos/start_project/assets/textures/PurpleMonster.png to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/textures/PurpleMonster.png
+2017-06-03T09:12:23.718Z - normal: [build-raw-assets] Finish copying /Users/simon/workspace/Cocos/start_project/assets/textures/background.jpg to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/textures/background.jpg
+2017-06-03T09:12:23.718Z - normal: [build-raw-assets] Finish copying /Users/simon/workspace/Cocos/start_project/assets/textures/ground.png to /Users/simon/workspace/Cocos/start_project/build/web-mobile/res/raw-assets/textures/ground.png
+2017-06-03T09:12:23.718Z - normal: Finish building raw assets
+2017-06-03T09:12:23.724Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2017-06-03T09:12:23.729Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
+2017-06-03T09:12:23.732Z - normal: Built to "/Users/simon/workspace/Cocos/start_project/build/web-mobile" successfully

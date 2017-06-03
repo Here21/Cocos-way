@@ -1,0 +1,42 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [
+    "cc",
+    "Class",
+    "extends",
+    "Component",
+    "properties",
+    "pickRadius",
+    "onLoad",
+    "getPlayerDistance",
+    "playerPos",
+    "game",
+    "player",
+    "getPosition",
+    "dist",
+    "pDistance",
+    "node",
+    "position",
+    "onPicked",
+    "spawnNewStar",
+    "gainScore",
+    "destroy",
+    "update",
+    "dt",
+    "opacityRatio",
+    "timer",
+    "starDuration",
+    "minOpacity",
+    "opacity",
+    "Math",
+    "floor"
+  ],
+  "mappings": ";;AAAAA,GAAGC,KAAH,CAAS;AACLC,aAASF,GAAGG,SADP;;AAGLC,gBAAY;AACVC,oBAAY;AADF,KAHP;;AAOL;AACAC,YAAQ,kBAAY,CAEnB,CAVI;;AAYLC,uBAAmB,6BAAW;AAC1B;AACA,YAAIC,YAAY,KAAKC,IAAL,CAAUC,MAAV,CAAiBC,WAAjB,EAAhB;AACA,YAAIC,OAAOZ,GAAGa,SAAH,CAAaL,SAAb,EAAwB,KAAKM,IAAL,CAAUC,QAAlC,CAAX;AACA,eAAOH,IAAP;AACH,KAjBI;;AAmBLI,cAAU,oBAAW;AACjB,aAAKP,IAAL,CAAUQ,YAAV;AACA,aAAKR,IAAL,CAAUS,SAAV;AACA,aAAKJ,IAAL,CAAUK,OAAV;AAEH,KAxBI;AAyBL;AACAC,YAAQ,gBAAUC,EAAV,EAAc;AAClB,YAAG,KAAKd,iBAAL,KAA2B,KAAKF,UAAnC,EAA+C;AAC3C,iBAAKW,QAAL;AACA;AACH;AACD,YAAIM,eAAe,IAAI,KAAKb,IAAL,CAAUc,KAAV,GAAgB,KAAKd,IAAL,CAAUe,YAAjD;AACA,YAAIC,aAAa,EAAjB;AACA,aAAKX,IAAL,CAAUY,OAAV,GAAoBD,aAAaE,KAAKC,KAAL,CAAWN,gBAAgB,MAAMG,UAAtB,CAAX,CAAjC;AACH;AAlCI,CAAT",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n      pickRadius: 0\n    },\n\n    // use this for initialization\n    onLoad: function () {\n\n    },\n    \n    getPlayerDistance: function() {\n        // 判断距离\n        var playerPos = this.game.player.getPosition()\n        var dist = cc.pDistance(playerPos, this.node.position);\n        return dist;\n    },\n    \n    onPicked: function() {\n        this.game.spawnNewStar();\n        this.game.gainScore();\n        this.node.destroy();\n        \n    },\n    // called every frame, uncomment this function to activate update callback\n    update: function (dt) {\n        if(this.getPlayerDistance() < this.pickRadius) {\n            this.onPicked();\n            return;\n        }\n        var opacityRatio = 1 - this.game.timer/this.game.starDuration;\n        var minOpacity = 50;\n        this.node.opacity = minOpacity + Math.floor(opacityRatio * (255 - minOpacity));\n    },\n});\n"
+  ]
+}
