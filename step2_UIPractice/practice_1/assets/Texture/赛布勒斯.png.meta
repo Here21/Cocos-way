@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "e8e7a67c-6cb7-4e4c-b9f6-85fd0b3ded38",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "赛布勒斯": {
+      "ver": "1.0.3",
+      "uuid": "5ac93889-4ac5-414d-af07-f73cc9a39a51",
+      "rawTextureUuid": "e8e7a67c-6cb7-4e4c-b9f6-85fd0b3ded38",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 2,
+      "offsetY": 0,
+      "trimX": 25,
+      "trimY": 10,
+      "width": 126,
+      "height": 152,
+      "rawWidth": 172,
+      "rawHeight": 172,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

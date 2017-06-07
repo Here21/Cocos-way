@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "7c96f8d6-fc0f-45fa-9cf0-36b8e18a06d6",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "圣诞树": {
+      "ver": "1.0.3",
+      "uuid": "a695c139-8fb9-4c5c-a7b5-0579036620b3",
+      "rawTextureUuid": "7c96f8d6-fc0f-45fa-9cf0-36b8e18a06d6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -1.5,
+      "offsetY": -12.5,
+      "trimX": 47,
+      "trimY": 59,
+      "width": 232,
+      "height": 236,
+      "rawWidth": 329,
+      "rawHeight": 329,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

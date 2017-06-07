@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "6ad2e6fd-9ca8-45a3-82d9-145af1a88153",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "天使羊": {
+      "ver": "1.0.3",
+      "uuid": "893e9372-ab57-4e9b-bd7a-c2d836a08496",
+      "rawTextureUuid": "6ad2e6fd-9ca8-45a3-82d9-145af1a88153",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": -9,
+      "trimX": 40,
+      "trimY": 34,
+      "width": 92,
+      "height": 122,
+      "rawWidth": 172,
+      "rawHeight": 172,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

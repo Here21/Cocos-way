@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "325fffee-f298-40f2-9f34-2db267eb51da",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "植物学龙": {
+      "ver": "1.0.3",
+      "uuid": "c065feeb-3502-44e9-9264-8ea3b93327ed",
+      "rawTextureUuid": "325fffee-f298-40f2-9f34-2db267eb51da",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2.5,
+      "offsetY": -18.5,
+      "trimX": 30,
+      "trimY": 37,
+      "width": 107,
+      "height": 135,
+      "rawWidth": 172,
+      "rawHeight": 172,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
