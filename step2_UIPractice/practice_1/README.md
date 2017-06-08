@@ -11,7 +11,7 @@
 
 ## 练习一：使用基本元素完成如图示例
 
-![practice_01_demo](http://obd9ssud2.bkt.clouddn.com/github/cocos-creator/ui_practice_01.gif)
+![practice_01_demo](/cocos-way/gif/practice_01.gif)
 
 基本要求，在不同尺寸的设备上，正常显示。
 
